@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -234,8 +234,7 @@ export default function Home() {
               company: "Creative Studios",
               rating: 5,
               imageSrc: getAssetUrl("testimonial-customer-1"),
-              imageAlt: getAssetAlt("testimonial-customer-1"),
-              content: "The coffee at BrewCo is absolutely exceptional. Every visit feels like a treat, and the atmosphere is perfect for getting work done."
+              imageAlt: getAssetAlt("testimonial-customer-1")
             },
             {
               id: "2",
@@ -244,8 +243,7 @@ export default function Home() {
               company: "Tech Startup",
               rating: 5,
               imageSrc: getAssetUrl("testimonial-customer-2"),
-              imageAlt: getAssetAlt("testimonial-customer-2"),
-              content: "I start every morning with BrewCo's house espresso. The quality is consistently outstanding, and the staff knows exactly how I like my coffee."
+              imageAlt: getAssetAlt("testimonial-customer-2")
             },
             {
               id: "3",
@@ -254,8 +252,7 @@ export default function Home() {
               company: "State University",
               rating: 5,
               imageSrc: getAssetUrl("testimonial-customer-3"),
-              imageAlt: getAssetAlt("testimonial-customer-3"),
-              content: "This is my go-to study spot. The coffee is amazing, the wifi is fast, and the ambiance helps me stay focused on my research."
+              imageAlt: getAssetAlt("testimonial-customer-3")
             },
             {
               id: "4",
@@ -264,8 +261,7 @@ export default function Home() {
               company: "Community Volunteer",
               rating: 5,
               imageSrc: getAssetUrl("testimonial-customer-4"),
-              imageAlt: getAssetAlt("testimonial-customer-4"),
-              content: "BrewCo has become my daily routine. The coffee reminds me of the best cafes I visited in Europe, and the community here is wonderful."
+              imageAlt: getAssetAlt("testimonial-customer-4")
             }
           ]}
           layout="default"
